@@ -78,12 +78,12 @@ MongoClient.connect(connectionURL, { useNewUrlParser: true }, (error, client) =>
 
 
     
-    col.deleteOne({
-        age: 27
-    }).then((result)=> {
-        console.log(result);
-    }).catch((err) => {
-        console.log(err);
-    })
+    // col.deleteOne({
+    //     age: 27
+    // }).then((result)=> {
+    //     console.log(result);
+    // }).catch((err) => {
+    //     console.log(err);
+    // })
 
 });
